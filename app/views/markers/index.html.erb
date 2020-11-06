@@ -7,6 +7,7 @@
     <tr>
       <th>Name</th>
       <th>Url</th>
+      <th>Category</th>
       <th>Subcategory</th>
       <th>Type</th>
       <th colspan="3"></th>
@@ -18,8 +19,9 @@
       <tr>
         <td><%= marker.name %></td>
         <td><%= marker.url %></td>
-        <td><%= marker.subcategory %></td>
-        <td><%= marker.type %></td>
+        <td><%= marker.subcategory.category.name %></td>
+        <td><%= marker.subcategory.name %></td>
+        <td><%= marker.type.name %></td>
         <td><%= link_to 'Show', marker %></td>
         <td><%= link_to 'Edit', edit_marker_path(marker) %></td>
         <td><%= link_to 'Destroy', marker, method: :delete, data: { confirm: 'Are you sure?' } %></td>

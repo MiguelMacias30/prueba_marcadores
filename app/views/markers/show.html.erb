@@ -12,12 +12,12 @@
 
 <p>
   <strong>Subcategory:</strong>
-  <%= @marker.subcategory %>
+  <%= @marker.subcategory.name %>
 </p>
 
 <p>
   <strong>Type:</strong>
-  <%= @marker.type %>
+  <%= @marker.type.name %>
 </p>
 
 <%= link_to 'Edit', edit_marker_path(@marker) %> |
