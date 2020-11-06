@@ -5,6 +5,7 @@ class MarkersController < ApplicationController
   # GET /markers.json
   def index
     @markers = Marker.all
+    @markers_type = Marker.group(:name).count()
   end
 
   # GET /markers/1
