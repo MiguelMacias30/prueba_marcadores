@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'api/index'
   resources :markers
   resources :subcategories
   resources :categories
