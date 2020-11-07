@@ -1,24 +1,5 @@
-# README
+[pagina en heroku](https://radiant-spire-19322.herokuapp.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+la ruta para ingresar a la api es: (https://radiant-spire-19322.herokuapp.com/api/category)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+el diagrama tiene como nombre: diagrama png
