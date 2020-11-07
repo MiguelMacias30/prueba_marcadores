@@ -14,7 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery
-//= require bootstrap/dist/js/bootstrap
+
 //= require chartkick
 //= require highcharts
 //= require_tree .
